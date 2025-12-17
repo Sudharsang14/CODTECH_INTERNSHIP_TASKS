@@ -150,5 +150,6 @@ This project demonstrates how matrix factorization works for recommendation syst
 
 *OUTPUT:*
 
+<img width="933" height="673" alt="Image" src="https://github.com/user-attachments/assets/8f93f3a3-a826-4160-9500-b9246190f894" />
 
 
