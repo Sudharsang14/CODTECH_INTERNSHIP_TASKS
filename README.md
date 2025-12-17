@@ -22,7 +22,7 @@ A Decision Tree Classifier is implemented to train the model, visualize decision
 
 *Key steps include:*
 
-Loading and cleaning the Titanic dataset
+    *1.* Loading and cleaning the Titanic dataset
 
 Handling missing values (e.g., imputing missing ages)
 
