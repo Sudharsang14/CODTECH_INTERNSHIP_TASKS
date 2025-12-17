@@ -42,4 +42,8 @@ This project helps understand how decision trees work, how features affect survi
 
 *OUTPUT:*
 
+<img width="696" height="416" alt="Image" src="https://github.com/user-attachments/assets/8b35bdc2-5b46-4701-b45e-9e57614d91e4" />
+
+<img width="1358" height="738" alt="Image" src="https://github.com/user-attachments/assets/50c90dfe-e5aa-4e7a-a667-8a1972ec45ef" />
+
 
