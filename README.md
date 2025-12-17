@@ -12,6 +12,8 @@
 
 *MENTOR*: NEELA SANTOSH
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 *TASK_1*: TITANIC SURVIVAL PREDICTION USING DECISION TREE CLASSIFICATION
 
 *✅ Project Description*
@@ -44,8 +46,7 @@ This project helps understand how decision trees work, how features affect survi
 
 <img width="696" height="416" alt="Image" src="https://github.com/user-attachments/assets/8b35bdc2-5b46-4701-b45e-9e57614d91e4" /> 
 
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *TASK_2:* SENTIMENT ANALYSIS USING NLP AND LOGISTIC REGRESSION
 
@@ -55,7 +56,7 @@ This project builds a Natural Language Processing (NLP) model to classify the se
 
 A Logistic Regression (multiclass) model is used for classification after converting tweets into numerical features using TF-IDF Vectorization. The project includes text preprocessing, feature extraction, model training, evaluation, and prediction.
 
-Key steps include:
+*Key steps include:*
 
   *1.* Loading and preprocessing the tweet dataset
 
@@ -78,4 +79,33 @@ This project demonstrates how to build an end-to-end NLP pipeline for sentiment 
 *OUTPUT:* 
 
 <img width="933" height="673" alt="Image" src="https://github.com/user-attachments/assets/8f93f3a3-a826-4160-9500-b9246190f894" />
+
+
+*TASK_3:* IMAGE CLASSIFICATION USING CNN
+
+✅ Project Description
+
+This project builds a Convolutional Neural Network (CNN) using PyTorch to classify images from the CIFAR-10 dataset, which contains 10 classes such as airplanes, cars, birds, cats, and more. The model is trained using data augmentation, normalized image tensors, and evaluated on unseen test data.
+
+The CNN includes convolution layers, ReLU activation, max-pooling, dropout, and fully connected layers to perform multi-class image classification.
+
+*Key Steps Include:*
+
+  *1.* Loading CIFAR-10 dataset for training & testing
+
+  *2.* Applying data augmentation (random crop, flip)
+
+  *3.* Designing a CNN with 3 convolution layers + fully connected layers
+
+  *4.* Training using CrossEntropyLoss + Adam optimizer
+
+  *5.* Evaluating with accuracy, classification report, and confusion matrix
+
+  *6.* Saving the trained model as cnn_model.pth
+
+This project demonstrates how deep learning models process image data and how CNNs can classify visual patterns effectively.
+
+*OUTPUT:*
+
+
 
