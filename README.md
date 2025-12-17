@@ -22,20 +22,20 @@ A Decision Tree Classifier is implemented to train the model, visualize decision
 
 *Key steps include:*
 
-    *1.* Loading and cleaning the Titanic dataset
+   *1.* Loading and cleaning the Titanic dataset
 
-Handling missing values (e.g., imputing missing ages)
+   *2.* Handling missing values (e.g., imputing missing ages)
 
-Encoding categorical variables such as “Sex” using Label Encoding
+   *3.* Encoding categorical variables such as “Sex” using Label Encoding
 
-Splitting the dataset into training and testing sets
+   *4.* Splitting the dataset into training and testing sets
 
-Building a Decision Tree Classifier with controlled max-depth and leaf size
+   *5.* Building a Decision Tree Classifier with controlled max-depth and leaf size
 
-Visualizing the decision-making process using plot_tree and Graphviz
+   *6.* Visualizing the decision-making process using plot_tree and Graphviz
 
-Generating readable if-else rules for interpretation
+   *7.* Generating readable if-else rules for interpretation
 
-Making a sample prediction based on passenger details
+   *8.* Making a sample prediction based on passenger details
 
 This project helps understand how decision trees work, how features affect survival, and how to interpret model outputs. It serves as a foundational machine learning classification example suitable for beginners and intermediate learners.
