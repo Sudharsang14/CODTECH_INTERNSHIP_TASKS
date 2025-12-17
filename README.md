@@ -81,6 +81,9 @@ This project demonstrates how to build an end-to-end NLP pipeline for sentiment 
 <img width="933" height="673" alt="Image" src="https://github.com/user-attachments/assets/8f93f3a3-a826-4160-9500-b9246190f894" />
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 *TASK_3:* IMAGE CLASSIFICATION USING CNN
 
 ✅ Project Description
@@ -104,6 +107,46 @@ The CNN includes convolution layers, ReLU activation, max-pooling, dropout, and 
   *6.* Saving the trained model as cnn_model.pth
 
 This project demonstrates how deep learning models process image data and how CNNs can classify visual patterns effectively.
+
+*OUTPUT:*
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+*TASK_4:* MOVIE RECOMMENDATION SYSTEM
+
+✅ Project Description
+
+This project builds a Movie Recommendation System using Singular Value Decomposition (SVD) on user–movie rating data. The goal is to predict missing ratings and recommend movies that a user is most likely to enjoy based on collaborative filtering.
+
+The project includes two parts:
+
+Model Building (Python) – training SVD on the user–item rating matrix and evaluating performance using RMSE and MAE.
+
+Interactive Web App (Streamlit) – allowing users to select a User ID and receive personalized movie recommendations.
+
+*Key steps include:(
+
+   *1.* Loading and preparing the MovieLens ratings dataset
+
+   *2.* Building a user–item matrix for collaborative filtering
+
+   *3.* Creating a train–test split by masking test ratings
+
+   *4.* Training Truncated SVD to learn latent features
+
+   *5.* Reconstructing predicted user–movie ratings
+
+   *6.* Evaluating the model using RMSE and MAE
+
+*Developing a Streamlit UI to:*
+
+   * Select a user
+
+   * Generate top recommended movies
+
+   * Display predicted ratings
+
+This project demonstrates how matrix factorization works for recommendation systems and how SVD can effectively predict user preferences. It is ideal for beginners and intermediate learners exploring recommendation engines and collaborative filtering.
 
 *OUTPUT:*
 
