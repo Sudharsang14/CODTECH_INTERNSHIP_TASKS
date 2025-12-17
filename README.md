@@ -38,4 +38,8 @@ A Decision Tree Classifier is implemented to train the model, visualize decision
 
    *8.* Making a sample prediction based on passenger details
 
-This project helps understand how decision trees work, how features affect survival, and how to interpret model outputs. It serves as a foundational machine learning classification example suitable for beginners and intermediate learners.
+This project helps understand how decision trees work, how features affect survival, and how to interpret model outputs. It serves as a foundational machine learning classification example.
+
+*OUTPUT:*
+
+
