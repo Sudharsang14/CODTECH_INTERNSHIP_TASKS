@@ -45,7 +45,7 @@ This project helps understand how decision trees work, how features affect survi
 <img width="696" height="416" alt="Image" src="https://github.com/user-attachments/assets/8b35bdc2-5b46-4701-b45e-9e57614d91e4" /> 
 
 
-<img width="1358" height="738" alt="Image" src="https://github.com/user-attachments/assets/50c90dfe-e5aa-4e7a-a667-8a1972ec45ef" />
+
 
 *TASK_2:* SENTIMENT ANALYSIS USING NLP AND LOGISTIC REGRESSION
 
@@ -76,4 +76,6 @@ Key steps include:
 This project demonstrates how to build an end-to-end NLP pipeline for sentiment classification and is a perfect learning example for beginners and intermediate learners interested in text analytics and machine learning.
 
 *OUTPUT:* 
+
+<img width="933" height="673" alt="Image" src="https://github.com/user-attachments/assets/8f93f3a3-a826-4160-9500-b9246190f894" />
 
