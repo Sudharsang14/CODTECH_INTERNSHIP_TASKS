@@ -42,8 +42,38 @@ This project helps understand how decision trees work, how features affect survi
 
 *OUTPUT:*
 
-<img width="696" height="416" alt="Image" src="https://github.com/user-attachments/assets/8b35bdc2-5b46-4701-b45e-9e57614d91e4" />
+<img width="696" height="416" alt="Image" src="https://github.com/user-attachments/assets/8b35bdc2-5b46-4701-b45e-9e57614d91e4" /> 
+
 
 <img width="1358" height="738" alt="Image" src="https://github.com/user-attachments/assets/50c90dfe-e5aa-4e7a-a667-8a1972ec45ef" />
 
+*TASK_2:* SENTIMENT ANALYSIS USING NLP AND LOGISTIC REGRESSION
+
+✅ Project Description
+
+This project builds a Natural Language Processing (NLP) model to classify the sentiment of tweets using machine learning. The dataset contains tweets labeled with different sentiment categories, and the goal is to predict the sentiment based on text content.
+
+A Logistic Regression (multiclass) model is used for classification after converting tweets into numerical features using TF-IDF Vectorization. The project includes text preprocessing, feature extraction, model training, evaluation, and prediction.
+
+Key steps include:
+
+  *1.* Loading and preprocessing the tweet dataset
+
+  *2.* Cleaning text using lowercasing, regex filtering, and tokenization
+
+  *3.* Removing stopwords and applying stemming
+
+  *4.* Converting text into TF-IDF feature vectors
+
+  *5.* Splitting data into training and testing sets
+
+  *6.* Training a Logistic Regression classifier
+
+  *7.* Evaluating performance using accuracy, classification report, and confusion matrix
+
+  *8.* Predicting sentiment for custom sample tweets
+
+This project demonstrates how to build an end-to-end NLP pipeline for sentiment classification and is a perfect learning example for beginners and intermediate learners interested in text analytics and machine learning.
+
+*OUTPUT:* 
 
