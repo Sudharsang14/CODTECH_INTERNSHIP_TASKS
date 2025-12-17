@@ -148,6 +148,8 @@ Interactive Web App (Streamlit) – allowing users to select a User ID and recei
 
 This project demonstrates how matrix factorization works for recommendation systems and how SVD can effectively predict user preferences. It is ideal for beginners and intermediate learners exploring recommendation engines and collaborative filtering.
 
+*STREAMLIT APP:* https://movierecomeng0714.streamlit.app/
+
 *OUTPUT:*
 
 <img width="1885" height="863" alt="Image" src="https://github.com/user-attachments/assets/5090fec0-9c50-4558-9e4e-b72bf69fd97a" />
