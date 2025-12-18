@@ -112,7 +112,7 @@ This project demonstrates how deep learning models process image data and how CN
 
 <img width="1178" height="900" alt="Image" src="https://github.com/user-attachments/assets/fb0ec4ea-ab73-419c-916d-10da3c6f07fd" />
 
-<img width="1681" height="50" alt="Image" src="https://github.com/user-attachments/assets/4e828568-2d30-4dab-a9a2-2cf3185cfb1b" />
+<img width="1233" height="709" alt="Image" src="https://github.com/user-attachments/assets/a313a301-ffc0-42ad-80c4-d4feb5e2c4f1" />
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
