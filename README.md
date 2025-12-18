@@ -128,7 +128,7 @@ Model Building (Python) – training SVD on the user–item rating matrix and ev
 
 Interactive Web App (Streamlit) – allowing users to select a User ID and receive personalized movie recommendations.
 
-*Key steps include:(
+*Key steps include:*
 
    *1.* Loading and preparing the MovieLens ratings dataset
 
