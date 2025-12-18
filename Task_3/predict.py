@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
 from PIL import Image
+import torch.nn.functional as F
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -51,11 +52,29 @@ transform = transforms.Compose([
 
 image_path = "image_path"
 image = Image.open(image_path).convert("RGB")
-image = transform(image)
-image = image.unsqueeze(0).to(device)
+image = transform(image).unsqueeze(0).to(device)
 
 with torch.no_grad():
     output = model(image)
-    _, predicted = torch.max(output, 1)
+    probabilities = F.softmax(output, dim=1)
+    confidence, predicted = torch.max(probabilities, 1)
 
-print("Predicted class:", class_names[predicted.item()])
+# ----------------------------
+# EXTRA OUTPUT INFORMATION
+# ----------------------------
+
+print("\n=== PREDICTION RESULT ===")
+print(f"Predicted class: {class_names[predicted.item()]}")
+print(f"Confidence: {confidence.item() * 100:.2f}%")
+
+print("\n=== TOP-3 PREDICTIONS ===")
+top3_prob, top3_idx = torch.topk(probabilities, 3)
+for i in range(3):
+    print(f"{i+1}. {class_names[top3_idx[0][i].item()]}: {top3_prob[0][i].item() * 100:.2f}%")
+
+print("\n=== RAW MODEL OUTPUT (Logits) ===")
+print(output)
+
+print("\n=== PROBABILITY FOR EACH CLASS ===")
+for idx, cls in enumerate(class_names):
+    print(f"{cls}: {probabilities[0][idx].item() * 100:.2f}%")
