@@ -1,16 +1,16 @@
 # CODTECH INTERNSHIP TASKS
 
-*COMPANY*: CODTECH IT SOLUTIONS
+*COMPANY:* CODTECH IT SOLUTIONS
 
-*NAME*: SUDHARSAN G
+*NAME:* SUDHARSAN G
 
-*INTERN ID*: CTIS0283
+*INTERN ID:* CTIS0283
 
-*DOMAIN*: MACHINE LEARNING
+*DOMAIN:* MACHINE LEARNING
 
-*DURATION*: 4 WEEKS
+*DURATION:* 4 WEEKS
 
-*MENTOR*: NEELA SANTOSH
+*MENTOR:* NEELA SANTOSH
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
